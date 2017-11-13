@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "8"
+before_script:
+  - "npm install jest bootstrap@4.0.0-beta.2 reactstrap@next"
+  # install required packages in case students forget to save them!
+
+# os:
+#   - osx
