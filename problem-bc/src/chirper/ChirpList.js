@@ -57,7 +57,7 @@ class ChirpItem extends Component {
 
           {/* A section for showing chirp likes */}
           <div className="likes">          
-            <i className={'fa fa-heart '+(iLike ? 'user-liked': '')} aria-label="like" onClick={() => this.likeChirp()} ></i>            
+            <i className={'fa fa-heart '+(userLikes ? 'user-liked': '')} aria-label="like" onClick={() => this.likeChirp()} ></i>            
             <span>{/*space*/} {likeCount}</span>
           </div>
         </div>
