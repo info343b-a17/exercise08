@@ -99,8 +99,18 @@ To complete the exercise, you will need to edit the included **`src/index.js`**,
     Now you should see a spinner instead of the sign up form when you refresh the page while signed in!
 
 ## Testing Problem B
-Coming soon...
+This exercise includes a test suite to verify that you are interacting with Firebase correctly. Note that this test suite is not comprehensive, nor will it ensure that your code follows the required syntactical approach or Component structure.
 
+You can run the test suite using
+
+```bash
+# make sure you're in the root `exercise08` repo
+cd path/to/exercise08
+
+jest problemB
+```
+
+**Important** You will need to be in the repository's root folder for the tests to run!
 
 
 ## Problem C Instructions
@@ -187,4 +197,15 @@ To complete the exercise, you will need to edit make minor changes to **`src/ind
     This should add in "liking" functionality, so you can like the stuff you've done!
 
 ## Testing Problem C
-Coming soon...
+This exercise includes a test suite to verify that you are interacting with Firebase correctly. Note that this test suite is not comprehensive, nor will it ensure that your code follows the required syntactical approach or Component structure.
+
+You can run the test suite using
+
+```bash
+# make sure you're in the root `exercise08` repo
+cd path/to/exercise08
+
+jest problemB
+```
+
+**Important** You will need to be in the repository's root folder for the tests to run!
