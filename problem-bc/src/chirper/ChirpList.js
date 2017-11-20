@@ -12,6 +12,7 @@ export default class ChirpList extends Component {
 
 
   render() {
+    if(!this.state.chirps) return null; //if no chirps, don't display
 
     /* TODO: produce a list of `<ChirpItems>` to render */
     let chirpItems = []; //replace this with an array of actual values!
