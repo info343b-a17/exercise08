@@ -23,3 +23,6 @@ jest problemA
 # run tests for all problems
 jest
 ```
+
+
+All Exercises Copyright 2017 Joel Ross (ISC)
